@@ -1,0 +1,42 @@
+
+:root {
+    --purple: #7030a0;
+    --sandgold: #FFF2CC;
+    --green: #548235;
+    --black: #232323;
+    --white: #ffff;
+    --logo: 'Gloria' , 'sans-serif';
+}
+
+.container {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem ;
+    background-color: var(--purple);
+    position: relative;
+    
+}
+
+h1 a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav a {
+    display: inline-block;
+    color: var(--white);
+    text-transform: uppercase;
+    text-decoration: none;
+}
